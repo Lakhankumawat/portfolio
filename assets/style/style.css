@@ -88,6 +88,9 @@ input,textarea,select{
   margin-left: -15px;
   position: relative;
 }
+.row p{
+  align-items: center;
+}
 .section-title{
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -394,7 +397,7 @@ footer small{
   font-size: 25px;
     font-weight: 40;
     margin-top: 60px;
-    margin-left: 130px;
+   
     text-align:center;
 }
 
@@ -458,7 +461,7 @@ footer small{
 .about .about-content .personal-info .buttons{
   margin-top: 30px;
 }
-.about .about-content .personal-info .buttons .btn{
+.about .about-content .personal-info .btn{
   margin-right: 15px;
   margin-top: 10px;
 }
@@ -750,6 +753,9 @@ body.dark .aside .nav li a{
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .contact-btn {
+    margin-left: 500px;
+  }
 }
 @media (max-width:815px){
   .about .about-content .skills{
@@ -757,6 +763,9 @@ body.dark .aside .nav li a{
     -ms-flex: 0 0 50%;
     max-width: 50%;
     margin-top: 40px;
+  }
+  .contact-btn {
+    margin-left: 400px;
   }
 }
 @media (max-width:740px){
@@ -772,6 +781,9 @@ body.dark .aside .nav li a{
     max-width: 100%;
     margin-top: 30px;
   }
+  .contact-btn{
+    margin-left: 350px;
+  }
 }
 @media (max-width:650px){
   .project .project-item{
@@ -779,6 +791,9 @@ body.dark .aside .nav li a{
     flex: 0 0 100%;
     max-width: 100%;
     padding-bottom: 30px;
+  }
+  .contact-btn{
+    margin-left: 200px;
   }
 }
 @media (max-width:550px){
@@ -804,5 +819,8 @@ body.dark .aside .nav li a{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .contact-btn , .contact-text , .social-link2{
+    margin-left: 30px;
   }
 }
